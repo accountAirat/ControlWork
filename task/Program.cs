@@ -20,11 +20,10 @@ void FillNewArray(string[] arr, string[] newArr, int standard)
         }
     }
 }
-Console.Clear();
+
 string[] array = { "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "Russia", "Denmark", "Kazan" };
 int standardSize = 3;
-Console.WriteLine(string.Join(", ", array));
 ElementCounting(array, standardSize);
 string[] newArray = new string[ElementCounting(array, standardSize)];
 FillNewArray(array, newArray, standardSize);
-Console.WriteLine(string.Join(", ", newArray));
+
