@@ -23,7 +23,5 @@ void FillNewArray(string[] arr, string[] newArr, int standard)
 
 string[] array = { "hello", "2", "world", ":-)", "1234", "1567", "-2", "computer science", "Russia", "Denmark", "Kazan" };
 int standardSize = 3;
-ElementCounting(array, standardSize);
 string[] newArray = new string[ElementCounting(array, standardSize)];
 FillNewArray(array, newArray, standardSize);
-
